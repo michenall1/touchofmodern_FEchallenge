@@ -1,0 +1,77 @@
+body {
+  font-family: "Arial";
+}
+
+.title {
+  line-height: 36px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tagline {
+  line-height: 18px;
+  text-align: center;
+}
+
+.product-container {
+  padding: 10px 30px;
+}
+
+.product-container .card {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.product-container img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  padding: 10px;
+  color: #0096ff;
+}
+
+.description .title {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.description .tagline {
+  line-height: 16px;
+}
+
+.overlay {
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  /* width: 100%; */
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.product-container .card:hover .overlay {
+  opacity: 0.85;
+}
+
+.detail_text {
+  width: 100%;
+  color: white;
+  font-size: 14px;
+}
+
+.cross {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
